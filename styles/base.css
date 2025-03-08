@@ -65,10 +65,10 @@ footer {
 }
 
 .image {
-    width: 100%;  /* Makes the image responsive within its container */
-    max-width: 600px;  /* Ensures images don't become too large */
+    width: 100%;  /* Makes images fully responsive */
+    max-width: 500px;  /* Prevents them from becoming too large */
     height: auto;  /* Maintains aspect ratio */
     display: block;
-    margin: 0 auto;  /* Centers the image within the card */
-    border-radius: 8px; /* Optional: Adds rounded corners for a smoother look */
+    margin: 0 auto;  /* Centers the images */
+    border-radius: 8px; /* Smooth corners */
 }
