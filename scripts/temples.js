@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     menuButton.addEventListener("click", function () {
         navMenu.classList.toggle("show");
+        menuButton.classList.toggle("close");
     });
 
     // Dynamic Footer Year
