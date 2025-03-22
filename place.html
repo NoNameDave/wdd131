@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <meta name="description" content="Explore the natural beauty and weather of Cape Town, South Africa.">
-  <meta name="author" content="Christiaan Wolmarans">
-  <link rel="stylesheet" href="styles/base.css">  
-  <script src="scripts/place.js" defer></script>
-  <title>Discover Cape Town</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore the natural beauty and weather of Cape Town, South Africa.">
+    <meta name="author" content="Christiaan Wolmarans">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/place.js" defer></script>
+    <title>Discover Cape Town</title>
 </head>
 <body>
-  <header>
-    <h1>Discover Cape Town</h1>
-  </header>
+    <header>
+        <h1>Discover Cape Town</h1>
+    </header>
 
-  <main>
-    <section class="hero">
-        <picture>
-            <source srcset="images/mountain-large.webp" media="(min-width: 1000px)">
-            <source srcset="images/mountain-medium.webp" media="(min-width: 600px)">
-            <img src="images/mountain-small.webp" alt="Cape Town Mountain View">
-        </picture>
-    </section>
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/mountain-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/mountain-medium.webp" media="(min-width: 600px)">
+                <img src="images/mountain-small.webp" alt="Cape Town Mountain View">
+            </picture>
+        </section>
 
-    <section class="weather">
-      <h2>Weather <span class="weather-icon" aria-hidden="true"></span></h2>
-      <p>Temperature: <span id="temp">45</span>°F</p>
-      <p>Wind Speed: <span id="speed">10</span> mph</p>
-      <p>Wind Chill: <span id="windchill">Calculating...</span></p>
-      <img src="images/weather.svg" alt="Weather Icon" class="svg-weather-icon">
-    </section>
-  </main>
+        <section class="weather">
+        <h2>Weather <span class="weather-icon" aria-hidden="true"></span></h2>
+        <p>Temperature: <span id="temp">45</span>°F</p>
+        <p>Wind Speed: <span id="speed">10</span> mph</p>
+        <p>Wind Chill: <span id="windchill">Calculating...</span></p>
+        <img src="images/weather.svg" alt="Weather Icon" class="svg-weather-icon">
+        </section>
+    </main>
 
-  <footer>
-    <p>&copy; <span id="year"></span> | Christiaan Wolmarans | South Africa</p>
-    <p>Last Modified: <span id="modified"></span></p>
-  </footer>
+    <footer>
+        <p>&copy; <span id="year"></span> | Christiaan Wolmarans | South Africa</p>
+        <p>Last Modified: <span id="modified"></span></p>
+    </footer>
 </body>
 </html>
