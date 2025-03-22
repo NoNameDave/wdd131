@@ -1,112 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --primary: #004d40;
+  --accent: #ffc107;
+  --text-dark: #212121;
+  --background: #f4f4f4;
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--text-dark);
 }
 
 header {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease-in-out;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-    color: #ff9800;
+  color: var(--accent);
 }
 
 main {
-    width: 80%;
-    margin: 20px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .card {
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-    text-align: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 footer {
-    text-align: center;
-    background: #333;
-    color: white;
-    padding: 1rem;
-    margin-top: 20px;
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 1rem;
+  margin-top: 20px;
 }
 
 .image {
-    width: 100%;  /* Makes images fully responsive */
-    max-width: 500px;  /* Prevents them from becoming too large */
-    height: auto;  /* Maintains aspect ratio */
-    display: block;
-    margin: 0 auto;  /* Centers the images */
-    border-radius: 8px; /* Smooth corners */
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
 }
 
-:root {
-    --primary: #004d40;
-    --accent: #ffc107;
-    --text-dark: #212121;
-    --background: #f4f4f4;
-  }
-  
-  .weather {
-    padding: 1em;
-    text-align: center;
-    background-color: white;
-    border-radius: 8px;
-  }
-  
-  .weather h2 {
-    font-size: 1.5rem;
-    position: relative;
-  }
-  
+.weather {
+  padding: 1em;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.weather h2 {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.weather-icon::after {
+  content: "⛅";
+  margin-left: 8px;
+}
+
+.svg-weather-icon {
+  display: none;
+  width: 50px;
+  margin: 1em auto;
+}
+
+@media screen and (max-width: 768px) {
   .weather-icon::after {
-    content: "⛅";
-    margin-left: 8px;
+    content: ""; /* hides ⛅ */
   }
-  
+
   .svg-weather-icon {
-    display: none;
+    display: block;
   }
-  
-  @media screen and (max-width: 768px) {
-    .weather-icon::after {
-      content: ""; /* hides ⛅ */
-    }
-  
-    .svg-weather-icon {
-      display: block;
-    }
-  }  
+}
