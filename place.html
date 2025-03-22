@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Explore the natural beauty and weather of Cape Town, South Africa.">
+  <meta name="author" content="Christiaan Wolmarans">
+  <link rel="stylesheet" href="styles/base.css">  
+  <script src="scripts/place.js" defer></script>
+  <title>Discover Cape Town</title>
+</head>
+<body>
+  <header>
+    <h1>Discover Cape Town</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/mountain.webp" media="(min-width: 1000px)">
+        <source srcset="images/mountain.webp" media="(min-width: 600px)">
+        <img src="images/mountain.webp" alt="Cape Town Mountain View">
+      </picture>
+    </section>
+
+    <section class="weather">
+      <h2>Weather <span class="weather-icon" aria-hidden="true"></span></h2>
+      <p>Temperature: <span id="temp">45</span>°F</p>
+      <p>Wind Speed: <span id="speed">10</span> mph</p>
+      <p>Wind Chill: <span id="windchill">Calculating...</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Christiaan Wolmarans | South Africa</p>
+    <p>Last Modified: <span id="modified"></span></p>
+  </footer>
+</body>
+</html>
