@@ -4,7 +4,7 @@ const temples = [
     location: "Londrina, Brazil",
     dedicated: "2022, September, 18",
     area: 23000,
-    imageUrl: "..../images/temple1.jpg"
+    imageUrl: "../images/temple1.jpg"
     },
     {
     templeName: "Aba Nigeria",
