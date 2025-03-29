@@ -1,0 +1,93 @@
+/* temples.css - Mobile First Design */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4A148C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none; /* Hide in larger screens */
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #7B1FA2;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.grid-container img {
+    width: 100%;
+    max-width: 400px; /* Ensuring all images are uniform in size */
+    height: 300px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures images are cropped properly to fit */
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #4A148C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        background-color: #6A1B9A;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        width: 150px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    nav.show {
+        display: flex;
+    }
+
+    #menu-button {
+        display: block;
+    }
+}
