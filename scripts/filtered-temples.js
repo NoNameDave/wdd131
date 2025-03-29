@@ -4,63 +4,63 @@ const temples = [
     location: "Londrina, Brazil",
     dedicated: "2022, September, 18",
     area: 23000,
-    imageUrl: "images/temple1.jpg"
+    imageUrl: "images/temple1.JPG"
     },
     {
     templeName: "Aba Nigeria",
     location: "Aba, Nigeria",
     dedicated: "2005, August, 7",
     area: 11500,
-    imageUrl: "images/temple2.jpg"
+    imageUrl: "images/temple2.JPG"
     },
     {
     templeName: "Madrid Spain",
     location: "Madrid, Spain",
     dedicated: "1999, March, 19",
     area: 45683,
-    imageUrl: "images/temple3.jpg"
+    imageUrl: "images/temple3.JPG"
     },
     {
     templeName: "Manhattan New York",
     location: "Manhattan, New York, USA",
     dedicated: "2004, June, 13",
     area: 20632,
-    imageUrl: "images/temple4.jpg"
+    imageUrl: "images/temple4.JPG"
     },
     {
     templeName: "Belém Brazil",
     location: "Belém, Brazil",
     dedicated: "2018, November, 18",
     area: 28475,
-    imageUrl: "images/temple5.jpg"
+    imageUrl: "images/temple5.JPG"
     },
     {
     templeName: "Durban South Africa",
     location: "Durban, South Africa",
     dedicated: "2020, February, 16",
     area: 19828,
-    imageUrl: "images/temple6.jpg"
+    imageUrl: "images/temple6.JPG"
     },
     {
     templeName: "Gilbert Arizona",
     location: "Gilbert, Arizona, USA",
     dedicated: "2014, March, 2",
     area: 85000,
-    imageUrl: "images/temple7.jpg"
+    imageUrl: "images/temple7.JPG"
     },
     {
     templeName: "Santo Domingo Dominican Republic",
     location: "Santo Domingo, Dominican Republic",
     dedicated: "2000, September, 17",
     area: 67000,
-    imageUrl: "images/temple8.jpg"
+    imageUrl: "images/temple8.JPG"
     },
     {
     templeName: "Jacksonville Florida",
     location: "Jacksonville, Florida, USA",
     dedicated: "2023, April, 2",
     area: 29000,
-    imageUrl: "images/temple9.jpg"
+    imageUrl: "images/temple9.JPG"
     },
     {
       templeName: "Aba Nigeria",
