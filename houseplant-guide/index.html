@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A beginner's guide to houseplants" />
+  <meta name="author" content="Christiaan Wolmarans">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>Home | Houseplant Guide</title>
+</head>
+<body>
+  <header>
+    <h1>Beginner's Guide to Houseplants</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="care.html">Care Tips</a></li>
+        <li><a href="picker.html">Plant Picker</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Why Houseplants?</h2>
+      <p>Houseplants improve air quality, reduce stress, and make your space feel alive.</p>
+    </section>
+  
+    <section class="card-grid">
+      <div class="card">
+        <h2>Snake Plant</h2>
+        <img src="images/snake_plant.jpg" alt="Snake Plant" loading="lazy">
+        <p>Tolerates low light and infrequent watering. Perfect for beginners!</p>
+      </div>
+      <div class="card">
+        <h2>Pothos</h2>
+        <img src="images/pothos_plant.jpg" alt="Pothos" loading="lazy">
+        <p>Fast-growing vine that thrives in a variety of lighting conditions.</p>
+      </div>
+      <div class="card">
+        <h2>Peace Lily</h2>
+        <img src="images/peace_lily_plant.jpg" alt="Peace Lily" loading="lazy">
+        <p>Elegant and forgiving. Prefers low light and moist soil.</p>
+      </div>
+      <div class="card">
+        <h2>Spider Plant</h2>
+        <img src="images/spider_plant.jpg" alt="Spider Plant" loading="lazy">
+        <p>Easy to grow and propagate. Loves indirect light and occasional watering.</p>
+      </div>
+      <div class="card">
+        <h2>Calathea</h2>
+        <img src="images/calathea_plant.jpg" alt="Calathea Plant" loading="lazy">
+        <p>Calatheas enjoy medium to low indirect light and thrive in high humidity. Keep their soil consistently moist.</p>
+      </div>
+      
+      <div class="card">
+        <h2>Areca Palm</h2>
+        <img src="images/areca_palm_plant.jpg" alt="Areca Palm Plant" loading="lazy">
+        <p>Areca Palms prefer bright, indirect light and regular watering. They’re great natural air purifiers and pet-friendly.</p>
+      </div>      
+    </section>
+  
+    <section id="plant-of-the-day" class="card highlight-card">
+      <h2>🌿 Plant of the Day</h2>
+      <div class="plant-day-image-wrapper">
+        <img id="plant-image" src="" alt="Plant of the Day" loading="lazy">
+      </div>
+      <p id="plant-output" class="plant-day-caption"></p>
+    </section>
+  </main>  
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Houseplant Guide | Christiaan Wolmarans - South Africa | <a href="references.html">References</a></p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/plants.js"></script>
+</body>
+</html>
