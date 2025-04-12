@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #4CAF50;
+    --primary-color: #1B5E20;
     --text-color: #333;
     --background-color: #f5f0f6;
     --off-white: #fcfcfc;
@@ -96,6 +96,11 @@
   .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  footer a {
+    color: white;
+    text-decoration: underline;
   }
   
   .card img {
